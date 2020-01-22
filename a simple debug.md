@@ -26,4 +26,4 @@ run一下看看有没有到断点停下
 if not , um... 还请认真思考与分析。
 
 ## [图片]
-![Image](/捕获.png)
+![Image](https://github.com/GCYYfun/DraftDoc/blob/master/%E6%8D%95%E8%8E%B7.PNG)
