@@ -143,39 +143,106 @@ struct Context {
     x27: u64,
 }
 ```
-而switch应该是
+类似switch应该是
 ```
-         sd x1, 0x00($0)
-         sd x2, 0x08($0)
-         sd x8, 0x10($0)
-         sd x9, 0x18($0)
-         sd x18, 0x20($0)
-         sd x19, 0x28($0)
-         sd x20, 0x30($0)
-         sd x21, 0x38($0)
-         sd x22, 0x40($0)
-         sd x23, 0x48($0)
-         sd x24, 0x50($0)
-         sd x25, 0x58($0)
-         sd x26, 0x60($0)
-         sd x27, 0x68($0)
-         sd x1, 0xa0($0)
+         sd x2, 0x00($0)
+         sd x8, 0x08($0)
+         sd x9, 0x10($0)
+         sd x18, 0x18($0)
+         sd x19, 0x20($0)
+         sd x20, 0x28($0)
+         sd x21, 0x30($0)
+         sd x22, 0x38($0)
+         sd x23, 0x40($0)
+         sd x24, 0x48($0)
+         sd x25, 0x50($0)
+         sd x26, 0x58($0)
+         sd x27, 0x60($0)
  
-         ld x1, 0x00($1)
-         ld x2, 0x08($1)
-         ld x8, 0x10($1)
-         ld x9, 0x18($1)
-         ld x18, 0x20($1)
-         ld x19, 0x28($1)
-         ld x20, 0x30($1)
-         ld x21, 0x38($1)
-         ld x22, 0x40($1)
-         ld x23, 0x48($1)
-         ld x24, 0x50($1)
-         ld x25, 0x58($1)
-         ld x26, 0x60($1)
-         ld x27, 0x68($1)
-         ld t0, 0xa0($1)
-
-         jr t0
+         ld x2, 0x00($1)
+         ld x8, 0x08($1)
+         ld x9, 0x10($1)
+         ld x18, 0x18($1)
+         ld x19, 0x20($1)
+         ld x20, 0x28($1)
+         ld x21, 0x30($1)
+         ld x22, 0x38($1)
+         ld x23, 0x40($1)
+         ld x24, 0x48($1)
+         ld x25, 0x50($1)
+         ld x26, 0x58($1)
+         ld x27, 0x60($1)
+         
+         ret
 ```
+这肯定是有问题的、在找问题之前、我们还需要看下x86的实现
+```
+unsafe {
+            let s_ptr = available.stack.as_mut_ptr().offset(size as isize);
+            let s_ptr = (s_ptr as usize & !15) as *mut u8;
+            ptr::write(s_ptr.offset(-24) as *mut u64, guard as u64);
+            ptr::write(s_ptr.offset(-32) as *mut u64, f as u64);
+            available.ctx.rsp = s_ptr.offset(-32) as u64;
+        }
+```
+这段代码表达了一些前提准备的意思  
+  
+首先
+> let s_ptr = available.stack.as_mut_ptr().offset(size as isize);  
+
+是把栈的首地址偏移到栈顶、然后把栈顶地址给到s_ptr
+> let s_ptr = (s_ptr as usize & !15) as *mut u8;  
+
+16字节对齐  
+> ptr::write(s_ptr.offset(-24) as *mut u64, guard as u64);    
+
+把guard函数地址写入栈顶偏移24字节处
+> ptr::write(s_ptr.offset(-32) as *mut u64, f as u64);
+
+把函数f的地址写入栈顶偏移32字节处
+> available.ctx.rsp = s_ptr.offset(-32) as u64;
+
+把栈顶偏移32字节处地址给到ctx.rsp、意思把栈顶指针偏移到原先栈-32字节处、也是f函数的地址
+  
+稍作分析、guard函数地址应该时返回地址、谁的返回地址、当前运行的"线程"运行完后的要去到这个地址、  
+  
+而f函数、是我们想执行的函数、我们希望运行它、所以应该设置pc为这个地址、  
+  
+这样我们在目前这个程序里要记录和设置两个地址、
+  
+所以在riscv64情况下、我们的context、可能会变成这样
+```
+struct Context {
+    x1:  u64,
+    x2:  u64,
+    x8:  u64,
+    x9:  u64,
+    x18: u64,
+    x19: u64,
+    x20: u64,
+    x21: u64,
+    x22: u64,
+    x23: u64,
+    x24: u64,
+    x25: u64,
+    x26: u64,
+    x27: u64,
+    f  : u64,
+}
+```
+因为在riscv里刚好提供ra寄存器、x1,又多了一个f值、是要存放f函数的地址、好把pc指向到那里来首先运行、
+
+那么switch应该怎样的、还未去深入研究、但这时有人已经做完了、请参考rcore群内、名字叫做<协程.docx>的word文件、
+
+之后很快实现了可以跑的riscv版本程序  
+地址:https://github.com/chyyuu/rCore_tutorial/blob/greenthread/usr/rust/src/bin/greenthread.rs
+
+## 想运行一下这个程序在riscv版本上的操作步骤
+
+前提： 在可以运行rCorre_tutorial的环境下、在rCorre_tutorial文件夹下 [github 上可[下载](https://github.com/rcore-os/rCore_tutorial.git)]
+1. 进入usr 文件夹
+2. make user_img
+3. 回到rCorre_tutorial文件夹下 
+4. 进入os文件夹
+5. make run
+6. 成功运行
