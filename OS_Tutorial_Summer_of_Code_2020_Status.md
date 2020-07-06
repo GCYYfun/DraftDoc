@@ -30,6 +30,7 @@ Phase 2 💎
 | Lable | Description           |
 |-------|-----------------------|
 | ⭐    | Step DDL  (Important) |
+| :octocat: | Good Job          |
 
 
 # Phase 1 💎
@@ -55,7 +56,7 @@ No Tracking
 |-----------------|-----------------------------------------------------------------------------------|----------------------------|
 | 郑昱笙             | https://github.com/yunwei37/os-summer-of-code-daily                               | ✔️                        |
 | irakatz         | https://github.com/irakatz/Schedule                                               | ✔️                        |
-| ruilibuaa       | https://github.com/ruilibuaa/RustStudy/wiki                                       | 此人是大佬、无权Tracking           |
+| ruilibuaa       | https://github.com/ruilibuaa/RustStudy/wiki                                       |  |
 | 周恒宇             | https://github.com/Rhacoal/rcore-labs                                             | ...                        |
 | leonardodalinky | https://github.com/leonardodalinky/DailySche                                      | ✔️                        |
 | freheit889      | https://github.com/freheit889/record                                              | ✔️                        |
