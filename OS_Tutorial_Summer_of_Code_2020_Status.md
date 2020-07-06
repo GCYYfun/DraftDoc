@@ -52,54 +52,54 @@ No Tracking
 ### Record Tracking 📙 学习记录 追踪
 
 | Name            | Github Record Link                                                                | Updated In The Last 3 Days |
-|-----------------|-----------------------------------------------------------------------------------|---------------------------|
-| 郑昱笙             | https://github.com/yunwei37/os-summer-of-code-daily                               | ✔️                       |
-| irakatz         | https://github.com/irakatz/Schedule                                               | ✔️                       |
-| ruilibuaa       | https://github.com/ruilibuaa/RustStudy/wiki                                       | 此人是大佬、无权Tracking          |
-| 周恒宇             | https://github.com/Rhacoal/rcore-labs                                             | ...                       |
-| leonardodalinky | https://github.com/leonardodalinky/DailySche                                      | ✔️                       |
-| freheit889      | https://github.com/freheit889/record                                              | ✔️                       |
-| 蒋周奇             | https://github.com/luojia65/DailySchedule                                         | ✔️                       |
-| JohnWestonNull  | https://github.com/JohnWestonNull/rCore_SoC_Dairy                                 | ✔️                       |
-| trialley        | https://github.com/trialley/rcore-to-zcore-daily                                  | ✔️                       |
-| 张廷意             | https://github.com/ztygreat/2020DailySchedule                                     | ✔️                       |
-| 张东宇             | https://github.com/Rubiczhang/Rcore-Study                                         | ✔️                       |
-| 曾广仕             | https://github.com/NameAvailable319/Rust_stady/wiki                               | ✔️                       |
-| 荆若木             | https://github.com/Jingruomu/OS_Tutorial_Summer_of_Code_2020                      | ✔️                       |
-| 黎欣怡             | https://github.com/Cynthia-Lxy/rcore2020/blob/master/README.md                    | ✔️                       |
-| 杨鼎睿             | https://github.com/yhyddr/os-summer-of-code-daily                                 | ✔️                       |
-| wfly1998        | https://github.com/wfly1998/DailySchedule                                         | ✔️                       |
-| 张哲瑞             | https://github.com/CJrZhang/rcore-lab                                             | ✔️                       |
-| 吴新优             | https://github.com/wxybaba/rizhi/wiki                                             | ✔️                       |
-| kszlzj          | https://github.com/kszlzj/DailySchedule                                           | ✔️                       |
-| 郑星              | https://github.com/starEvil01/rCore-os                                            | ✔️                       |
-| 车春池             | https://github.com/SKTT1Ryze/OS_Tutorial_Summer_of_Code/tree/master/DailySchedule | ✔️                       |
-| 文博              | https://github.com/73fc/DailySchedule                                             | ✔️                       |
-| luoqiangwei     | https://github.com/luoqiangwei/OSBasedOnRisc-VDailySchedule                       | ✔️                       |
-| 孔俊              | https://github.com/Kong-Jun/DailySchedule                                         | ✔️                       |
-| Lincyaw         | https://github.com/Lincyaw/Rust_os_summer/blob/master/readme.md                   | ✔️                       |
-| 张文龙             | https://github.com/iLFTH/DailySchedule                                            | ✔️                       |
-| 苑浩然             | https://github.com/sinofp/otsoc                                                   | ✔️                       |
-| 丁垣天             | https://github.com/DnailZ/os-tutorial-summer-of-code                              | ✔️                       |
-| 彭晓              | https://github.com/stellarkey/os_summer_project                                   | ✔️                       |
-| 许善朴             | https://github.com/xushanpu123/myrcore                                            | ✔️                       |
-| 成佳壮             | https://github.com/Wintersweet0/OS-                                               | ✔️                       |
-| 屠锦江             | https://github.com/tjj-coder/rcore-study                                          | ✔️                       |
-| 桂祎              | https://github.com/gystar/HelloRust.git                                           | ✔️                       |
-| dingiso         | https://github.com/dingiso/DailySchedule                                          | ✔️                       |
-| Wycers          | https://github.com/Wycers/rCore_SoC_Dairy                                         | ✔️                       |
-| 黄伟亮             | https://github.com/SherlockLockyanzu/os-code-daily                                | ✔️                       |
-| 荣悦同             | https://github.com/nlxxh/DailySchedule                                            | ✔️                       |
-| 惠文阳             | https://github.com/huiwy/DailySchedule                                            | ✔️                       |
-| 张正天             | https://github.com/loveHONOKAKOSAKA/Rust                                          | ✔️                       |
-| La-Vine         | https://github.com/La-Vine/Schedule                                               | ✔️                       |
-| chibinz         | https://github.com/chibinz/rCoreSummerOfCode                                      | ✔️                       |
-| 刘梦云             | https://github.com/MeliaLiu/RCoreDailySchedule                                    | ✔️                       |
-| ZHAOWEIde       | https://github.com/ZHAOWEIde/RUST-OS                                              | ✔️                       |
-| 蔡泽超             | https://github.com/Zzzec/OS-Summer-of-Code                                        | ✔️                       |
-| 石伟              | https://github.com/shiweiwww/rcore.git                                            | ✔️                       |
-| tianye-frank    | https://github.com/tianye-frank/rcoreStudyDailySchedule                           | ✔️                       |
-| am009           | https://github.com/am009/rcore_os                                                 | ✔️                       |
+|-----------------|-----------------------------------------------------------------------------------|----------------------------|
+| 郑昱笙             | https://github.com/yunwei37/os-summer-of-code-daily                               | ✔️                        |
+| irakatz         | https://github.com/irakatz/Schedule                                               | ✔️                        |
+| ruilibuaa       | https://github.com/ruilibuaa/RustStudy/wiki                                       | 此人是大佬、无权Tracking           |
+| 周恒宇             | https://github.com/Rhacoal/rcore-labs                                             | ...                        |
+| leonardodalinky | https://github.com/leonardodalinky/DailySche                                      | ✔️                        |
+| freheit889      | https://github.com/freheit889/record                                              | ✔️                        |
+| 蒋周奇             | https://github.com/luojia65/DailySchedule                                         | ✔️                        |
+| JohnWestonNull  | https://github.com/JohnWestonNull/rCore_SoC_Dairy                                 | ✔️                        |
+| trialley        | https://github.com/trialley/rcore-to-zcore-daily                                  | ✔️                        |
+| 张廷意             | https://github.com/ztygreat/2020DailySchedule                                     | ...                        |
+| 张东宇             | https://github.com/Rubiczhang/Rcore-Study                                         | ✔️                        |
+| 曾广仕             | https://github.com/NameAvailable319/Rust_stady/wiki                               | ✔️                        |
+| 荆若木             | https://github.com/Jingruomu/OS_Tutorial_Summer_of_Code_2020                      | ✔️                        |
+| 黎欣怡             | https://github.com/Cynthia-Lxy/rcore2020/blob/master/README.md                    | ✔️                        |
+| 杨鼎睿             | https://github.com/yhyddr/os-summer-of-code-daily                                 | ✔️                        |
+| wfly1998        | https://github.com/wfly1998/DailySchedule                                         | ✔️                        |
+| 张哲瑞             | https://github.com/CJrZhang/rcore-lab                                             | ✔️                        |
+| 吴新优             | https://github.com/wxybaba/rizhi/wiki                                             | ✔️                        |
+| kszlzj          | https://github.com/kszlzj/DailySchedule                                           | ✔️                        |
+| 郑星              | https://github.com/starEvil01/rCore-os                                            | ✔️                        |
+| 车春池             | https://github.com/SKTT1Ryze/OS_Tutorial_Summer_of_Code/tree/master/DailySchedule | ✔️                        |
+| 文博              | https://github.com/73fc/DailySchedule                                             | ✔️                        |
+| luoqiangwei     | https://github.com/luoqiangwei/OSBasedOnRisc-VDailySchedule                       | ✔️                        |
+| 孔俊              | https://github.com/Kong-Jun/DailySchedule                                         | ✔️                        |
+| Lincyaw         | https://github.com/Lincyaw/Rust_os_summer/blob/master/readme.md                   | ✔️                        |
+| 张文龙             | https://github.com/iLFTH/DailySchedule                                            | ✔️                        |
+| 苑浩然             | https://github.com/sinofp/otsoc                                                   | ✔️                        |
+| 丁垣天             | https://github.com/DnailZ/os-tutorial-summer-of-code                              | ✔️                        |
+| 彭晓              | https://github.com/stellarkey/os_summer_project                                   | ✔️                        |
+| 许善朴             | https://github.com/xushanpu123/myrcore                                            | ✔️                        |
+| 成佳壮             | https://github.com/Wintersweet0/OS-                                               | ✔️                        |
+| 屠锦江             | https://github.com/tjj-coder/rcore-study                                          | ✔️                        |
+| 桂祎              | https://github.com/gystar/HelloRust.git                                           | ✔️                        |
+| dingiso         | https://github.com/dingiso/DailySchedule                                          | ✔️                        |
+| Wycers          | https://github.com/Wycers/rCore_SoC_Dairy                                         | ✔️                        |
+| 黄伟亮             | https://github.com/SherlockLockyanzu/os-code-daily                                | ✔️                        |
+| 荣悦同             | https://github.com/nlxxh/DailySchedule                                            | ✔️                        |
+| 惠文阳             | https://github.com/huiwy/DailySchedule                                            | ✔️                        |
+| 张正天             | https://github.com/loveHONOKAKOSAKA/Rust                                          | ✔️                        |
+| La-Vine         | https://github.com/La-Vine/Schedule                                               | ✔️                        |
+| chibinz         | https://github.com/chibinz/rCoreSummerOfCode                                      | ✔️                        |
+| 刘梦云             | https://github.com/MeliaLiu/RCoreDailySchedule                                    | ✔️                        |
+| ZHAOWEIde       | https://github.com/ZHAOWEIde/RUST-OS                                              | ✔️                        |
+| 蔡泽超             | https://github.com/Zzzec/OS-Summer-of-Code                                        | ✔️                        |
+| 石伟              | https://github.com/shiweiwww/rcore.git                                            | ✔️                        |
+| tianye-frank    | https://github.com/tianye-frank/rcoreStudyDailySchedule                           | ✔️                        |
+| am009           | https://github.com/am009/rcore_os                                                 | ✔️                        |
 
 
 
