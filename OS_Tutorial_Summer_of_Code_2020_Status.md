@@ -55,7 +55,7 @@ No Tracking
 |-----------------|-----------------------------------------------------------------------------------|---------------------------|
 | 郑昱笙             | https://github.com/yunwei37/os-summer-of-code-daily                               | ✔️                       |
 | irakatz         | https://github.com/irakatz/Schedule                                               | ✔️                       |
-| ruilibuaa       | https://github.com/ruilibuaa/RustStudy/wiki                                       | ✔️                       |
+| ruilibuaa       | https://github.com/ruilibuaa/RustStudy/wiki                                       | 此人是大佬、无权Tracking                       |
 | 周恒宇             | https://github.com/Rhacoal/rcore-labs                                             | ✔️                       |
 | leonardodalinky | https://github.com/leonardodalinky/DailySche                                      | ✔️                       |
 | freheit889      | https://github.com/freheit889/record                                              | ✔️                       |
@@ -131,7 +131,7 @@ No Tracking
 |-------|-------------------|-------------|-----------------------------------------------------------------------------------|-------|
 | 郑昱笙   | yunwei37          |             | https://github.com/yunwei37/os-summer-of-code-daily                               |       |
 | Row2  | irakatz           |             | https://github.com/irakatz/Schedule                                               |       |
-| Row3  | ruilibuaa         |             | https://github.com/ruilibuaa/RustStudy/wiki                                       |       |
+| 保密  | ruilibuaa         |             | https://github.com/ruilibuaa/RustStudy/wiki                                       |       |
 | 周恒宇   | Rhacoal           |             | https://github.com/Rhacoal/rcore-labs                                             |       |
 | Row5  | leonardodalinky   |             | https://github.com/leonardodalinky/DailySche                                      |       |
 | Row6  | freheit889        |             | https://github.com/freheit889/record                                              |       |
