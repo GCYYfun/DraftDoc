@@ -51,12 +51,12 @@ No Tracking
 
 ### Record Tracking 📙 学习记录 追踪
 
-| Name            | Github Record Link                                                                | At Least 3  Day No Update |
+| Name            | Github Record Link                                                                | Updated In The Last 3 Days |
 |-----------------|-----------------------------------------------------------------------------------|---------------------------|
 | 郑昱笙             | https://github.com/yunwei37/os-summer-of-code-daily                               | ✔️                       |
 | irakatz         | https://github.com/irakatz/Schedule                                               | ✔️                       |
-| ruilibuaa       | https://github.com/ruilibuaa/RustStudy/wiki                                       | 此人是大佬、无权Tracking                       |
-| 周恒宇             | https://github.com/Rhacoal/rcore-labs                                             | ✔️                       |
+| ruilibuaa       | https://github.com/ruilibuaa/RustStudy/wiki                                       | 此人是大佬、无权Tracking          |
+| 周恒宇             | https://github.com/Rhacoal/rcore-labs                                             | ...                       |
 | leonardodalinky | https://github.com/leonardodalinky/DailySche                                      | ✔️                       |
 | freheit889      | https://github.com/freheit889/record                                              | ✔️                       |
 | 蒋周奇             | https://github.com/luojia65/DailySchedule                                         | ✔️                       |
