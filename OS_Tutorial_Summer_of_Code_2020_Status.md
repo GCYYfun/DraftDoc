@@ -245,10 +245,23 @@ No Tracking
 
 
 
-### Issues Tracking 📗 提问、回答、PR 追踪
+### Issues && PR Tracking 📗 提问、回答、PR 追踪
 
-| Name | Github Issues | Q | A | PR |
-|------|---------------|---|---|----|
+| Github Issues | Q | A | T |
+|--------------|---|---|----|
+|https://github.com/rcore-os/rCore-Tutorial/issues/11|JohnWestonNull|-|-|
+|https://github.com/rcore-os/rCore-Tutorial/issues/19|JohnWestonNull|-|-|
+|https://github.com/rcore-os/rCore-Tutorial/issues/21|freheit889|JohnWestonNull|-|
+
+| Name           | Q | A | T |
+|----------------|---|---|---|
+| JohnWestonNull | 2 | 1 | 0 |
+| freheit889     | 1 | 0 | 0 |
+
+
+| Name           | PR |
+|----------------|----|
+| JohnWestonNull | 7  |
 
 ### Rust Code Homework Tracking 📘 Rust Code 追踪
 
