@@ -263,6 +263,13 @@ No Tracking
 |----------------|----|
 | JohnWestonNull | 7  |
 
+### WeChat Tracking
+
+| Name           | PR |
+|----------------|----|
+| JohnWestonNull | 7  |
+
+
 ### Rust Code Homework Tracking 📘 Rust Code 追踪
 
 | Name | Code Address | Status |
@@ -272,6 +279,7 @@ No Tracking
 
 | Name | Tutorial Address | Progress |
 |------|------------------|----------|
+
 
 ### Log 📓 日志
 
