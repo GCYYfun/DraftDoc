@@ -1,2 +1,3 @@
 print("helo")
-print("lal")
+print("lala")
+print("heihei")
