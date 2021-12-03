@@ -27,7 +27,7 @@
 
 - [riscv-gdb](https://github.com/riscv-collab/riscv-gnu-toolchain/releases)(riscv-gnu-toolchain 中携带，非必要不用自己编译，徒增烦恼，下载编译好的文件，进行使用，我选的 __riscv64-elf-ubuntu-20.04-nightly-2021.09.21-nightly.tar.gz__)
 
-- 一个可以 裸机 执行 的 elf 文件 (这个大家根据喜好各自定义，可以参考 XX 中 提到 XX， 来 编写)
+- 一个可以 裸机 执行 的 elf 文件 (这个大家根据喜好各自定义，可以参考 [unmatched_survey.md](/unmatched_survey.md) 中 提到的 从零启动 fu540 bootloader ，来编写，注意imac)
 
 ### 文件
 
